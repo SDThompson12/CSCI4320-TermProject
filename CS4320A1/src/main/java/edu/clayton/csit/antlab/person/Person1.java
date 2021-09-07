@@ -1,4 +1,8 @@
 package edu.clayton.csit.antlab.person;
+import java.util.*;
+
+//Kenny Butler
+
 
 /**
  *  A simple class for person 1
@@ -31,6 +35,21 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
+	  if (input == null) {
+		  throw new NoSuchElementException("Cannot edit null data");
+	  }
+	  else if (input.length() < 3){
+		  return input;
+	  } else {
+		  String temp = "";
+		  char a = input.charAt(0);
+		  char b = input.charAt(1);
+		  for (int i = 0; i < input.length()) - 2; i++){
+			  temp = temp + input.charAt(i + 2);
+		  }
+		  temp = temp + a + b;
+		  	return temp;
+	  }
 	  return null;
 	}
 	
