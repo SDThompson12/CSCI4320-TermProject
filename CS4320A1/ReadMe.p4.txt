@@ -1,2 +1,2 @@
-Rocky Tran 
+Rocky Tran
 rtran@student.clayton.edu
