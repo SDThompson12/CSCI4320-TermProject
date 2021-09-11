@@ -71,10 +71,10 @@ import edu.clayton.csit.antlab.pkg2.*;
                   //and csuLaker4 with your laker id
                   Person4 p4 = new Person4("P4");
                   toPrint += p4.toString("csuLaker4");
-                  //Person5 replace P4 with your name
+                  //Person5 replace P5 with your name
                   //and csuLaker5 with your laker id
-                  Person5 p5 = new Person5("P5");
-                  toPrint += p5.toString("csuLaker5");
+                  Person5 p5 = new Person5(" Humberto ");
+                  toPrint += p5.toString("900693373");
 		  
         System.out.println(toPrint);
         
